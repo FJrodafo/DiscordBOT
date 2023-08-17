@@ -1,0 +1,30 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot made in JavaScript!",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "scripts": {
+    "start": "node deploy-commands.js && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJrodafo/DiscordBOT.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "npm",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Francisco José Rodríguez Afonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FJrodafo/DiscordBOT/issues"
+  },
+  "homepage": "https://github.com/FJrodafo/DiscordBOT#readme"
+}
