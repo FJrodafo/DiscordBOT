@@ -47,4 +47,4 @@ docker build -t discord-bot .
 docker run -dp 127.0.0.1:3000:3000 discord-bot
 ```
 
-> <tag style="color:black; background:yellow">Important!</tag> This app will use port 3000, change it if you are currently using port 3000; otherwise it will not run.
+> <mark>Important!</mark> This app will use port 3000, change it if you are currently using port 3000; otherwise it will not run.
