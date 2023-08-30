@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: "18-alpine"
       - name: Install dependencies
-        run: cd ./App && npm install
+        run: npm install
