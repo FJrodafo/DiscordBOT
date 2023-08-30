@@ -6,8 +6,12 @@
   "dependencies": {
     "discord.js": "^14.12.1"
   },
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  },
   "scripts": {
     "start": "node ./src/deploy-commands.js && node ./src/index.js",
+    "eslint": "eslint './**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
