@@ -4,6 +4,40 @@ This project was build by following the [discord.js guide](https://discordjs.gui
 
 All credits to the [discord.js](https://discord.js.org/) team!
 
+## Index
+
+1. [Project Structure](#project-structure)
+2. [Run it!](#run-it)
+3. [Docker](#docker)
+
+## Project Structure
+
+```
+App/
+   ├── node_modules/
+   │   └── ...
+   ├── src/
+   │   ├── commands/
+   │   │   ├── fun/
+   │   │   │   └── ping.js
+   │   │   ├── moderation/
+   │   │   │   ├── kick.js
+   │   │   │   └── prune.js
+   │   │   └── utility/
+   │   │       ├── avatar.js
+   │   │       ├── server.js
+   │   │       └── user.js
+   │   ├── events/
+   │   │   ├── interactionCreate.js
+   │   │   └── ready.js
+   │   ├── config.json
+   │   ├── deploy-commands.js
+   │   └── index.js
+   ├── Dockerfile
+   ├── package-lock.json
+   └── package.json
+```
+
 ## Run it!
 
 This project needs a `config.json` into the `src` directory with some data related to your Discord server and your BOT token:
@@ -50,3 +84,6 @@ docker run -dp 127.0.0.1:3000:3000 discord-bot
 ```
 
 > <mark>Important!</mark> This app will use port 3000, change it if you are currently using port 3000. Otherwise it will not run.
+
+<link rel="stylesheet" href="./README.css">
+<a class="back-to-top" href="#top" title="Back to top">↑</a>
