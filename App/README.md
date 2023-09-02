@@ -1,14 +1,13 @@
-## Attribution
-
-This project was build by following the [discord.js guide](https://discordjs.guide/).
-
-All credits to the [discord.js](https://discord.js.org/) team!
-
 ## Index
 
-1. [Project Structure](#project-structure)
-2. [Run it!](#run-it)
-3. [Docker](#docker)
+1. [Attribution](#attribution)
+2. [Project Structure](#project-structure)
+3. [Run it!](#run-it)
+4. [Docker](#docker)
+
+## Attribution
+
+This project was build by following the [discord.js guide](https://discordjs.guide/). I have modified small details of the code. This is just an example of what the final project would look like.
 
 ## Project Structure
 
