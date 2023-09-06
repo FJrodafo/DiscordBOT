@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "A simple Discord bot made in JavaScript!",
   "main": "index.js",
-  "dependencies": {
-    "discord.js": "^14.12.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.48.0"
-  },
   "scripts": {
     "start": "node ./src/deploy-commands.js && node ./src/index.js",
     "eslint": "eslint './**/*.js'",
@@ -23,12 +17,19 @@
     "bot",
     "npm",
     "nodejs",
-    "javascript"
+    "javascript",
+    "fjrodafo"
   ],
-  "author": "Francisco José Rodríguez Afonso",
+  "author": "FJrodafo - Francisco José Rodríguez Afonso",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FJrodafo/DiscordBOT/issues"
   },
-  "homepage": "https://github.com/FJrodafo/DiscordBOT#readme"
+  "homepage": "https://github.com/FJrodafo/DiscordBOT#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
 }
