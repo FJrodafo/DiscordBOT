@@ -39,7 +39,7 @@ App/
 
 ## Run it!
 
-This project needs a `config.json` into the `src` directory with some data related to your Discord server and your BOT token (make sure you have a BOT created in the [Discord Developer Portal](https://discord.com/developers/applications)):
+This project needs a `config.json` into the `src` directory with some data related to your Discord server and your BOT token (Make sure you have a BOT created in the [Discord Developer Portal](https://discord.com/developers/applications)):
 
 ```json
 {
@@ -49,7 +49,7 @@ This project needs a `config.json` into the `src` directory with some data relat
 }
 ```
 
-As well, this project must be initialized and the necessary dependencies installed with the following command (make sure you are in the `App` directory):
+As well, this project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
 
 ```shell
 npm install
@@ -59,7 +59,7 @@ If you have the `config.json` file into the `src` directory correctly configurat
 
 To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v16.11.0 or higher or, as a last option, check out the [Docker](#docker) alternative.
 
-Finally, if you have Node installed, run the following command to activate your Discord BOT (make sure you are in the `App` directory):
+Finally, if you have Node installed, run the following command to activate your Discord BOT (Make sure you are in the `App` directory):
 
 ```shell
 npm start
@@ -68,7 +68,7 @@ npm start
 
 ## Docker
 
-If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image, also make sure you are in the `App` directory).
+If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image, also make sure you are in the `App` directory).
 
 ```shell
 docker build -t discord-bot .
