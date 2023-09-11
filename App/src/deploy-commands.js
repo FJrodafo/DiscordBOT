@@ -6,7 +6,9 @@ const { REST, Routes } = require('discord.js');
 const { clientId, token } = require('./config.json');
 
 // Guild commands
-// const { clientId, guildId, token } = require('./config.json');
+/*
+const { clientId, guildId, token } = require('./config.json');
+*/
 
 const commands = [];
 // Grab all the command folders from the commands directory you created earlier
@@ -45,10 +47,12 @@ const rest = new REST().setToken(token);
         );
 
         // The put method is used to fully refresh all commands in the guild with the current set
-        // const data = await rest.put(
-        //     Routes.applicationGuildCommands(clientId, guildId),
-        //     { body: commands },
-        // );
+        /*
+        const data = await rest.put(
+            Routes.applicationGuildCommands(clientId, guildId),
+            { body: commands },
+        );
+        */
 
         console.log(`Successfully reloaded ${data.length} application (/) commands.`);
     }
@@ -57,3 +61,17 @@ const rest = new REST().setToken(token);
         console.error(error);
     }
 })();
+
+// Deleting commands for global commands
+/*
+rest.put(Routes.applicationCommands(clientId), { body: [] })
+    .then(() => console.log('Successfully deleted all application commands.'))
+    .catch(console.error);
+*/
+
+// Deleting commands for guild-based commands
+/*
+rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: [] })
+    .then(() => console.log('Successfully deleted all guild commands.'))
+    .catch(console.error);
+*/
