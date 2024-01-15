@@ -16,6 +16,8 @@ App/
    ├── node_modules/
    │   └── ...
    ├── src/
+   │   ├── assets/
+   │   │   └── ...
    │   ├── commands/
    │   │   ├── fun/
    │   │   │   └── ping.js
@@ -29,6 +31,8 @@ App/
    │   ├── events/
    │   │   ├── interactionCreate.js
    │   │   └── ready.js
+   │   ├── testing/
+   │   │   └── ...
    │   ├── config.json
    │   ├── deploy-commands.js
    │   └── index.js
