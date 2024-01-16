@@ -20,3 +20,37 @@ module.exports = {
         return interaction.reply({ content: `Successfully pruned \`${amount}\` messages.`, ephemeral: true });
     },
 };
+
+/*
+const { SlashCommandBuilder } = require('discord.js');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('prune')
+        .setDescription('Prune specific messages by their IDs.')
+        .setDefaultMemberPermissions(0)
+        .addStringOption(option => option.setName('message_ids').setDescription('IDs of messages to prune').setRequired(true)),
+    async execute(interaction) {
+        const messageIds = interaction.options.getString('message_ids').split(/[\s,]+/);
+
+        // Obtener el canal de DM del usuario
+        const channel = await interaction.user.createDM();
+
+        try {
+            for (const messageId of messageIds) {
+                const message = await channel.messages.fetch(messageId).catch(console.error);
+                if (message) {
+                    await message.delete();
+                } else {
+                    console.log(`Message with ID ${messageId} not found.`);
+                }
+            }
+
+            interaction.reply({ content: `Successfully pruned ${messageIds.length} messages.`, ephemeral: true });
+        } catch (error) {
+            console.error(error);
+            interaction.reply({ content: 'There was an error trying to prune messages.', ephemeral: true });
+        }
+    },
+};
+*/
