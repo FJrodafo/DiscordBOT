@@ -1,5 +1,5 @@
-- [x] fix 8ball command
-- [ ] fix f command
+- [x] fix f command
+- [ ] fix botcheck command
 
 - [ ] Deploy a database
 - [ ] Currency system

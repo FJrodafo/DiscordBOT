@@ -5,6 +5,55 @@ module.exports = {
     once: true,
     execute(client) {
         console.log(`Ready! Logged in as ${client.user.tag}`);
-        client.user.setPresence({ activities: [{ name: 'me', type: ActivityType.Listening }], status: 'idle' });
+
+        const status = [
+            {
+                activities: [{
+                    name: 'Dauntless',
+                    type: ActivityType.Competing,
+                }],
+                status: 'dnd',
+            },
+            {
+                activities: [{
+                    name: 'I respond to DMs',
+                    type: ActivityType.Custom,
+                }],
+                status: 'online',
+            },
+            {
+                activities: [{
+                    name: 'me',
+                    type: ActivityType.Listening,
+                }],
+                status: 'idle',
+            },
+            {
+                activities: [{
+                    name: 'Dauntless',
+                    type: ActivityType.Playing,
+                }],
+                status: 'idle',
+            },
+            {
+                activities: [{
+                    name: 'Dauntless',
+                    type: ActivityType.Streaming,
+                    url: 'https://www.twitch.tv/directory/category/dauntless',
+                }],
+            },
+            {
+                activities: [{
+                    name: 'One Piece',
+                    type: ActivityType.Watching,
+                }],
+                status: 'dnd',
+            },
+        ];
+
+        setInterval(() => {
+            const random = Math.floor(Math.random() * status.length);
+            client.user.setPresence(status[random]);
+        }, 3_600_000);
     },
 };
