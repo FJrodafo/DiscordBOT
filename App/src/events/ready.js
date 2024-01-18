@@ -56,6 +56,6 @@ module.exports = {
             client.user.setPresence(status[random]);
         }
         updateStatus();
-        setInterval(updateStatus, 60_000);
+        setInterval(updateStatus, 3_600_000);
     },
 };

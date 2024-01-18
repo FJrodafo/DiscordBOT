@@ -4,11 +4,10 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('8ball')
         .setDescription('🎱 Get your 8ball answer!')
-        .addStringOption(option =>
-            option
-                .setName('question')
-                .setDescription('Type your question!')
-                .setRequired(true),
+        .addStringOption(option => option
+            .setName('question')
+            .setDescription('Type your question!')
+            .setRequired(true),
         ),
     async execute(interaction) {
         const question = interaction.options.getString('question');

@@ -5,11 +5,10 @@ module.exports = {
         .setName('direct-message-remover')
         .setDescription('🧹 Delete a specific direct message sent by the bot by its ID.')
         .setDefaultMemberPermissions(0)
-        .addStringOption(option =>
-            option
-                .setName('message_id')
-                .setDescription('Message ID to delete')
-                .setRequired(true),
+        .addStringOption(option => option
+            .setName('message_id')
+            .setDescription('Message ID to delete')
+            .setRequired(true),
         ),
     async execute(interaction) {
         try {

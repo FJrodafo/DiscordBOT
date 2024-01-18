@@ -1,5 +1,5 @@
-- [x] fix f command
-- [ ] fix botcheck command
+- [x] fix botcheck command
+- [ ] fix say command
 
 - [ ] Deploy a database
 - [ ] Currency system

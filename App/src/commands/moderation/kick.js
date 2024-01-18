@@ -5,11 +5,10 @@ module.exports = {
         .setName('kick')
         .setDescription('Select a member and kick them (but not really).')
         .setDefaultMemberPermissions(0)
-        .addUserOption(option =>
-            option
-                .setName('target')
-                .setDescription('The member to kick')
-                .setRequired(true),
+        .addUserOption(option => option
+            .setName('target')
+            .setDescription('The member to kick')
+            .setRequired(true),
         ),
     async execute(interaction) {
         const member = interaction.options.getMember('target');

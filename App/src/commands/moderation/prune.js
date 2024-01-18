@@ -5,10 +5,10 @@ module.exports = {
         .setName('prune')
         .setDescription('Prune up to 99 messages.')
         .setDefaultMemberPermissions(0)
-        .addIntegerOption(option =>
-            option
-                .setName('amount')
-                .setDescription('Number of messages to prune'),
+        .addIntegerOption(option => option
+            .setName('amount')
+            .setDescription('Number of messages to prune')
+            .setRequired(false),
         ),
     async execute(interaction) {
         const amount = interaction.options.getInteger('amount');
