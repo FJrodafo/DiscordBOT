@@ -5,12 +5,7 @@ module.exports = {
         .setName('clear')
         .setDescription('🧹 Clear up to 99 messages!')
         .setDefaultMemberPermissions(0)
-        .addIntegerOption(option =>
-            option
-                .setName('amount')
-                .setDescription('Number of messages to clear')
-                .setRequired(true)
-        ),
+        .addIntegerOption(option => option.setName('amount').setDescription('Number of messages to clear').setRequired(true)),
     async execute(interaction) {
         const amount = interaction.options.getInteger('amount');
         const embed = new EmbedBuilder()

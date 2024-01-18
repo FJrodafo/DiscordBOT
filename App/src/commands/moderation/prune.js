@@ -5,12 +5,7 @@ module.exports = {
         .setName('prune')
         .setDescription('Prune a specific direct message sent by the bot by its ID.')
         .setDefaultMemberPermissions(0)
-        .addStringOption(option =>
-            option
-                .setName('message_id')
-                .setDescription('Message ID to prune')
-                .setRequired(true)
-        ),
+        .addStringOption(option => option.setName('message_id').setDescription('Message ID to prune').setRequired(true)),
     async execute(interaction) {
         try {
             const messageId = interaction.options.getString('message_id');
@@ -19,11 +14,13 @@ module.exports = {
 
             if (message && message.author.id === interaction.client.user.id) {
                 await message.delete();
-                interaction.reply({ content: `Successfully pruned the message.`, ephemeral: true });
-            } else {
-                interaction.reply({ content: `Message not found or can't be deleted.`, ephemeral: true });
+                interaction.reply({ content: 'Successfully pruned the message.', ephemeral: true });
             }
-        } catch (error) {
+            else {
+                interaction.reply({ content: 'Message not found or can\'t be deleted.', ephemeral: true });
+            }
+        }
+        catch (error) {
             console.error(error);
             interaction.reply({ content: 'There was an error trying to prune the message.', ephemeral: true });
         }
