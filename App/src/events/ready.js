@@ -51,9 +51,11 @@ module.exports = {
             },
         ];
 
-        setInterval(() => {
+        function updateStatus() {
             const random = Math.floor(Math.random() * status.length);
             client.user.setPresence(status[random]);
-        }, 3_600_000);
+        }
+        updateStatus();
+        setInterval(updateStatus, 60_000);
     },
 };
