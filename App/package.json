@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/FJrodafo/DiscordBOT#readme",
   "dependencies": {
-    "discord.js": "^14.12.1"
+    "discord.js": "^14.14.1",
+    "puppeteer": "^21.7.0"
   },
   "devDependencies": {
     "eslint": "^8.48.0"
