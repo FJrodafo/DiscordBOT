@@ -30,7 +30,6 @@ module.exports = {
                 .setImage('https://www.fmylife.com/images/header/baseline-fml.png')
                 .setThumbnail('https://www.fmylife.com/images/header/logo-fml.png')
                 .setTitle(articleData.author);
-
             const row = new ActionRowBuilder()
                 .addComponents(
                     new ButtonBuilder()
@@ -38,12 +37,11 @@ module.exports = {
                         .setStyle(ButtonStyle.Link)
                         .setURL(articleData.url),
                 );
-
             await interaction.editReply({ embeds: [embed], components: [row] });
         }
         catch (error) {
             console.error('Error during scraping:', error);
-            await interaction.editReply('An error occurred while getting the story. Please try again later.');
+            await interaction.editReply({ content: 'An error occurred while getting the story. Please try again later.', ephemeral: true });
         }
         finally {
             await browser.close();
