@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('kick')
-        .setDescription('Select a member and kick them (but not really).')
+        .setDescription('🚫 Select a member and kick them (but not really).')
         .setDefaultMemberPermissions(0)
         .addUserOption(option => option
             .setName('target')

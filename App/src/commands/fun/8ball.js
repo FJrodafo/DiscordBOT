@@ -6,7 +6,7 @@ module.exports = {
         .setDescription('🎱 Get your 8ball answer!')
         .addStringOption(option => option
             .setName('question')
-            .setDescription('Type your question!')
+            .setDescription('Type your question')
             .setRequired(true),
         ),
     async execute(interaction) {
