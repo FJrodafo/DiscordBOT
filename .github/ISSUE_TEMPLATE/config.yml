@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Issues
-    url: https://github.com/FJrodafo/DiscordBOT/issues/new/choose
-    about: Please report issues here.
-  - name: Security
+  - name: Security advisories
     url: https://github.com/FJrodafo/DiscordBOT/security/advisories
     about: Please report security vulnerabilities here.
