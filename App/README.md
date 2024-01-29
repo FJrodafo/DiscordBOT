@@ -24,10 +24,14 @@ App/
    │   │   ├── moderation/
    │   │   │   ├── kick.js
    │   │   │   └── prune.js
+   │   │   └── private/
+   │   │   │   └── ...
    │   │   └── utility/
    │   │       ├── avatar.js
    │   │       ├── server.js
    │   │       └── user.js
+   │   ├── data/
+   │   │   └── ...
    │   ├── events/
    │   │   ├── interactionCreate.js
    │   │   └── ready.js

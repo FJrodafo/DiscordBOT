@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./src/deploy-commands.js && node ./src/index.js",
     "eslint": "eslint './**/*.js'",
+    "eslintfix": "eslint './**/*.js' --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/FJrodafo/DiscordBOT#readme",
   "dependencies": {
+    "canvas": "^2.11.2",
     "discord.js": "^14.14.1",
     "puppeteer": "^21.7.0"
   },
