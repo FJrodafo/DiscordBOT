@@ -1,6 +1,6 @@
 App/node_modules
 App/src/assets
 App/src/commands/private
-App/src/data
+App/src/commands/utility/dauntless-meta-builds.png
 App/src/deprecated
 App/src/config.json
