@@ -218,106 +218,106 @@
     "Chain Blades":{
         "Pre-Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","SahvytsPincers.png","EyeOfTheSwarm.png","SkraevwingJacket.png","BorealMight.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Overpower","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Pulse"]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","InfernosFangs.png","EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","BorealMarch.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Overpower","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy"]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","StalkersTrap.png","FieryHelm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Molten","+6 Predator","+6 Tenacious","+3 Assassin's Frenzy","+3 Evasive Fury"]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","KharabaksWings.png","EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Bladestorm","+3 Evasive Fury"]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","PangarsClaws.png","FieryHelm.png","HellplateCuirass.png","BorealMight.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Perks":["+6 Molten","+6 Overpower","+6 Predator","+6 Tenacious","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Fortress","+3 Weighted Strikes"]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","ValomyrsRevenge.png","EyeOfTheSwarm.png","SkraevwingJacket.png","BorealMight.png","BorealMarch.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Molten","+6 Overpower","+6 Tenacious","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Pulse"]
             }
         },
         "Legendary Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","ElectricCruelties.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Molten"]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","ScorchingAgonies.png","TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Molten"]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","NightTerrors.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Molten"]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","DeathBlossoms.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Bladestorm","+3 Molten"]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","BlizzardsTeeth.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Molten","+3 Weighted Strikes"]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","TheWeepingHours.png","TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Berserker","+3 Molten"]
             }
         },
         "Heroic Escalation Survival":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","ElectricCruelties.png","TimeweaveHelm.png","AgaricBole.png","GraspOfThorns.png","ThraxsGuile.png","SkarnsDefiance.png"],
+                "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+3 Berserker","+3 Evasive Fury","+3 Overpower","+3 Parasitic"]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","ScorchingAgonies.png","GnasherCap.png","SkraevwingJacket.png","FieryGauntlets.png","SkraevwingBoots.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Tenacious","+3 Overpower","+3 Parasitic"]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","NightTerrors.png","TimeweaveHelm.png","LightsVirtue.png","Chronogrips.png","Chronotreads.png","SkarnsDefiance.png"],
+                "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+3 Adrenaline","+3 Assassin's Frenzy","+3 Berserker","+3 Parasitic"]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","DeathBlossoms.png","TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","ThraxsGuile.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+3 Bladestorm","+3 Parasitic"]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","BlizzardsTeeth.png","ThraxsScream.png","SkraevwingJacket.png","FieryGauntlets.png","ThraxsGuile.png","SkarnsDefiance.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Galvanized","+3 Molten","+3 Parasitic"]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Bastion.png","TheWeepingHours.png","ThraxsScream.png","ThraxsShadow.png","BorealMight.png","ThraxsGuile.png","SkarnsDefiance.png"],
+                "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Tenacious","+3 Adrenaline","+3 Aetherhunter","+3 Parasitic","+3 Zeal"]
             }
         },
         "Heroic Escalation Speedrun":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","ElectricCruelties.png","TimeweaveHelm.png","ThraxsShadow.png","GraspOfThorns.png","StrideOfThorns.png","PangarsShine.png"],
+                "Perks":["+6 Berserker","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+3 Evasive Fury","+3 Overpower"]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","ScorchingAgonies.png","TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","SkraevwingBoots.png","EmbermanesRapture.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Overpower"]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","NightTerrors.png","TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","Chronotreads.png","BroadsidesLantern.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker"]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","DeathBlossoms.png","TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","SkraevwingBoots.png","PangarsShine.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Bladestorm"]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","BlizzardsTeeth.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","TimeweaveLeggings.png","PangarsShine.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Catalyst","+6 Cunning","+6 Galvanized","+6 Predator"]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Icons":["Discipline.png","TheWeepingHours.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","ThraxsGuile.png","KoshaisBloom.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Aetherhunter","+3 Berserker"]
             }
         }
     },
