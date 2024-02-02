@@ -229,40 +229,46 @@
     },
     "Repeater":{
         "Shock":{
+            "Armour":["DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
             "Omnicell":["Revenant.png"],
-            "Armour":["DynamicDeadlights.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Perks":["⭐","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Berserker","+3 Overpower"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Perks":["⭐","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Berserker","+3 Overpower"]
+            "Weapon":["DynamicDeadlights.png","SahvytsAvengers.png","SalvoChamber.png","CaptainsGrip.png","TacticiansMagazine.png"]
         },
         "Blaze":{
+            "Armour":["DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
             "Omnicell":["Revenant.png"],
-            "Armour":["VolcanicEruptions.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Berserker","+3 Overpower"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Berserker","+3 Overpower"]
+            "Weapon":["VolcanicEruptions.png","InfernosRoar.png","SalvoChamber.png","CaptainsGrip.png","TacticiansMagazine.png"]
         },
         "Umbral":{
+            "Armour":["DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
             "Omnicell":["Revenant.png"],
-            "Armour":["EldritchTorments.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Assassin's Frenzy","+3 Berserker"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Assassin's Frenzy","+3 Berserker"]
+            "Weapon":["EldritchTorments.png","StalkersCries.png","MarksmanChamber.png","CaptainsGrip.png","PrecisionSights.png"]
         },
         "Terra":{
+            "Armour":["DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
             "Omnicell":["Revenant.png"],
-            "Armour":["TaintedNeedles.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Berserker","+3 Bladestorm"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Perks":["+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle","+3 Berserker","+3 Bladestorm"]
+            "Weapon":["TaintedNeedles.png","KharabaksLights.png","SalvoChamber.png","CaptainsGrip.png","TacticiansMagazine.png"]
         },
         "Frost":{
+            "Armour":["DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
             "Omnicell":["Revenant.png"],
-            "Armour":["CryoCannons.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Perks":["+6 Catalyst","+6 Cunning","+6 Galvanized","+6 Predator","+6 Recycle","+3 Berserker","+3 Overpower"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Perks":["+6 Catalyst","+6 Cunning","+6 Galvanized","+6 Predator","+6 Recycle","+3 Berserker","+3 Overpower"]
+            "Weapon":["CryoCannons.png","FrostwulfsChillers.png","SalvoChamber.png","CaptainsGrip.png","TacticiansMagazine.png"]
         },
         "Radiant":{
+            "Armour":["DarkWatch.png","MantleOfThorns.png","MalkarionsGrasp.png","Chronotreads.png","SkarnsDefiance.png"],
             "Omnicell":["Revenant.png"],
-            "Armour":["TemporalMechanics.png","DarkWatch.png","MantleOfThorns.png","MalkarionsGrasp.png","Chronotreads.png","SkarnsDefiance.png"],
+            "Perks":["+6 Berserker","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Perks":["+6 Berserker","+6 Catalyst","+6 Cunning","+6 Predator","+6 Pulse","+6 Recycle"]
+            "Weapon":["TemporalMechanics.png","Dawnstars.png","SalvoChamber.png","CaptainsGrip.png","TacticiansMagazine.png"]
         }
     },
     "Sword":{
