@@ -32,11 +32,11 @@ App/
    │   │       └── user.js
    │   ├── data/
    │   │   └── ...
+   │   ├── deprecated/
+   │   │   └── ...
    │   ├── events/
    │   │   ├── interactionCreate.js
    │   │   └── ready.js
-   │   ├── testing/
-   │   │   └── ...
    │   ├── config.json
    │   ├── deploy-commands.js
    │   └── index.js
@@ -76,11 +76,15 @@ npm start
 
 ## Docker
 
-If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image, also make sure you are in the `App` directory).
+If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
+
+Open a terminal and run the following command (Make sure you are in the `App` directory):
 
 ```shell
 docker build -t discord-bot .
 ```
+
+After the build completes, you can run your container with the following command:
 
 ```shell
 docker run -dp 127.0.0.1:3000:3000 discord-bot
