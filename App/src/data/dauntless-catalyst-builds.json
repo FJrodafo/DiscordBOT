@@ -30,25 +30,25 @@
 
         },
         "Terra":{
-            "Omnicell":["Revenant.png"],
             "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Omnicell":["Revenant.png"],
             "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Overpower","+6 Predator","+3 Berserker","+3 Bladestorm"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
             "Weapon":["AgentsOfDecay.png","KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
         },
         "Frost":{
-            "Omnicell":["Revenant.png"],
             "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Omnicell":["Revenant.png"],
             "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Galvanized","+6 Predator","+3 Berserker","+3 Overpower"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Weapon":[""]
+            "Weapon":["IceBreakers.png","FrostwulfsTacklers.png","TitansCrash.png","CyclonicStrikeplate.png"]
         },
         "Radiant":{
-            "Omnicell":["Revenant.png"],
             "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","StrideOfThorns.png","SkarnsDefiance.png"],
+            "Omnicell":["Revenant.png"],
             "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Overpower","+6 Predator","+3 Berserker","+3 Recycle"],
             "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
-            "Weapon":[""]
+            "Weapon":["Chaos&Entropy.png","HandsOfDawn.png","TitansCrash.png","CyclonicStrikeplate.png"]
         }
     },
     "Axe":{
