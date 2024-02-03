@@ -65,9 +65,15 @@ module.exports = {
             default: embedColor = 0xFFFFFF; break;
             }
 
-            const thumbnailPath = `../../assets/dauntless/builds/${buildInfo.Icons[0]}`;
+            const thumbnailPath = `../../assets/dauntless/builds/${buildInfo.Omnicell}`;
             const imagePath = './dauntless-escalation-builds.png';
-            const combinedImage = await combineImages(buildInfo.Icons);
+            let combinedImage;
+            if (buildInfo.Supplies) {
+                combinedImage = await combineImagesWithSupplies(buildInfo.Weapon, buildInfo.Armour, buildInfo.Supplies);
+            }
+            else {
+                combinedImage = await combineImages(buildInfo.Weapon, buildInfo.Armour);
+            }
             fs.writeFileSync(imagePath, combinedImage.toBuffer());
 
             const thumbnailFile = new AttachmentBuilder(thumbnailPath);
@@ -75,7 +81,7 @@ module.exports = {
             const embed = new EmbedBuilder()
                 .setColor(embedColor)
                 .setDescription(buildInfo.Perks.join(' '))
-                .setThumbnail(`attachment://${buildInfo.Icons[0]}`)
+                .setThumbnail(`attachment://${buildInfo.Omnicell}`)
                 .setImage('attachment://dauntless-escalation-builds.png')
                 .setTitle(`${element} ${weapon} ${escalation} Build:`);
             interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
@@ -86,20 +92,50 @@ module.exports = {
         }
     },
 };
-async function combineImages(iconNames) {
-    const canvas = createCanvas(128 * (iconNames.length - 1), 128);
+
+async function combineImagesWithSupplies(weapon, armour, supplies) {
+    const canvas = createCanvas(320, 180);
     const ctx = canvas.getContext('2d');
 
-    let x = 0;
+    const weaponRowStartX = (canvas.width - weapon.length * 64) / 2;
+    const suppliesRowStartX = (canvas.width - supplies.length * 32) / 2;
 
-    for (let i = 1; i < iconNames.length; i++) {
-        const iconName = iconNames[i];
+    if (weapon.length !== 5) {
+        await drawIcons(ctx, weapon, 0, weaponRowStartX, 1);
+    }
+    else {
+        await drawIcons(ctx, weapon, 0, 0, 1);
+    }
+    await drawIcons(ctx, armour, 74, 0, 1);
+    await drawIcons(ctx, supplies, 148, suppliesRowStartX, 0.5);
+
+    return canvas;
+}
+
+async function combineImages(weapon, armour) {
+    const canvas = createCanvas(320, 138);
+    const ctx = canvas.getContext('2d');
+
+    const weaponRowStartX = (canvas.width - weapon.length * 64) / 2;
+
+    await drawIcons(ctx, weapon, 0, weaponRowStartX, 1);
+    await drawIcons(ctx, armour, 74, 0, 1);
+
+    return canvas;
+}
+
+async function drawIcons(ctx, icons, yOffset, startX, scale) {
+    let x = startX;
+
+    for (let i = 0; i < icons.length; i++) {
+        const iconName = icons[i];
         const iconPath = `../../assets/dauntless/builds/${iconName}`;
         const icon = await loadImage(iconPath);
 
-        ctx.drawImage(icon, x, 0, 128, 128);
-        x += 128;
-    }
+        const scaledWidth = 64 * scale;
+        const scaledHeight = 64 * scale;
 
-    return canvas;
+        ctx.drawImage(icon, x, yOffset, scaledWidth, scaledHeight);
+        x += scaledWidth;
+    }
 }

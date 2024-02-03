@@ -9,28 +9,40 @@
     "Aether Strikers":{
         "Pre-Escalation":{
             "Shock":{
-                "Icons":["Bastion.png","SahvytsGrapplers.png","EyeOfTheSwarm.png","SkraevwingJacket.png","BorealMight.png","VolcanicTreads.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Overpower","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Pulse"]
+                "Armour":["EyeOfTheSwarm.png","SkraevwingJacket.png","BorealMight.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Omnicell":["Bastion.png"],
+                "Perks":["+6 Adrenaline","+6 Overpower","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Pulse"],
+                "Weapon":["SahvytsGrapplers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Blaze":{
-                "Icons":["Bastion.png","InfernosFlames.png","EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","BorealMarch.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Endurance","+6 Overpower","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy"]
+                "Armour":["EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","BorealMarch.png","SkarnsDefiance.png"],
+                "Omnicell":["Bastion.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Overpower","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy"],
+                "Weapon":["InfernosFlames.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Umbral":{
-                "Icons":["Bastion.png","StalkersScorn.png","FieryHelm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Endurance","+6 Molten","+6 Predator","+6 Tenacious","+3 Assassin's Frenzy","+3 Evasive Fury"]
+                "Armour":["FieryHelm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Omnicell":["Bastion.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Molten","+6 Predator","+6 Tenacious","+3 Assassin's Frenzy","+3 Evasive Fury"],
+                "Weapon":["StalkersScorn.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Terra":{
-                "Icons":["Bastion.png","KharabaksPincers.png","EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Endurance","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Bladestorm","+3 Evasive Fury"]
+                "Armour":["EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Omnicell":["Bastion.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Bladestorm","+3 Evasive Fury"],
+                "Weapon":["KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Frost":{
-                "Icons":["Bastion.png","PangarsPunishers.png","EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Endurance","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Fortress","+3 Knockout King"]
+                "Armour":["EyeOfTheSwarm.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Omnicell":["Bastion.png"],
+                "Perks":["+6 Adrenaline","+6 Endurance","+6 Predator","+6 Tenacious","+3 Aetheric Evasion","+3 Assassin's Frenzy","+3 Fortress","+3 Knockout King"],
+                "Weapon":["PangarsPunishers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Radiant":{
-                "Icons":["Bastion.png","ValomyrsVisions.png","EyeOfTheSwarm.png","SkraevwingJacket.png","BorealMight.png","BorealMarch.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Molten","+6 Overpower","+6 Tenacious","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Pulse"]
+                "Armour":["EyeOfTheSwarm.png","SkraevwingJacket.png","BorealMight.png","BorealMarch.png","SkarnsDefiance.png"],
+                "Omnicell":["Bastion.png"],
+                "Perks":["+6 Adrenaline","+6 Molten","+6 Overpower","+6 Tenacious","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Evasive Fury","+3 Pulse"],
+                "Weapon":["ValomyrsVisions.png","TitansCrash.png","CyclonicStrikeplate.png"]
             }
         },
         "Legendary Escalation":{
