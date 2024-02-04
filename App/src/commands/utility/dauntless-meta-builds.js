@@ -100,7 +100,7 @@ module.exports = {
             const imageFile = new AttachmentBuilder(imagePath);
             const embed = new EmbedBuilder()
                 .setColor(embedColor)
-                .setDescription(buildInfo.Perks.join(' '))
+                .setDescription(buildInfo.Perks.join('\n'))
                 .setThumbnail(`attachment://${buildInfo.Icons[0]}`)
                 .setImage('attachment://dauntless-meta-builds.png')
                 .setTitle(`${element} ${weapon} ${omnicell} Build:`);

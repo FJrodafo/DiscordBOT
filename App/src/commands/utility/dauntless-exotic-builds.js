@@ -38,7 +38,7 @@ module.exports = {
             const imageFile = new AttachmentBuilder(imagePath);
             const embed = new EmbedBuilder()
                 .setColor(0xFFFFFF)
-                .setDescription(buildInfo.Perks.join(' '))
+                .setDescription(buildInfo.Perks.join('\n'))
                 .setThumbnail(`attachment://${buildInfo.Omnicell}`)
                 .setImage('attachment://dauntless-exotic-builds.png')
                 .setTitle(`${weapon} Exotic Build:`);

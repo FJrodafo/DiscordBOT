@@ -54,12 +54,24 @@ module.exports = {
 
             const thumbnailFile = new AttachmentBuilder(thumbnailPath);
             const imageFile = new AttachmentBuilder(imagePath);
-            const embed = new EmbedBuilder()
-                .setColor(0x000000)
-                .setDescription(buildInfo.Perks.join(' '))
-                .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                .setImage('attachment://dauntless-catalyst-builds.png')
-                .setTitle(`${element} ${weapon} Catalyst Build:`);
+            let embed;
+            if (buildInfo.Best) {
+                embed = new EmbedBuilder()
+                    .setColor(0x000000)
+                    .setDescription(buildInfo.Perks.join('\n'))
+                    .setThumbnail(`attachment://${buildInfo.Omnicell}`)
+                    .setImage('attachment://dauntless-catalyst-builds.png')
+                    .setTitle(`${element} ${weapon} Catalyst Build:`)
+                    .setFooter({ text: `${buildInfo.Best}` });
+            }
+            else {
+                embed = new EmbedBuilder()
+                    .setColor(0x000000)
+                    .setDescription(buildInfo.Perks.join('\n'))
+                    .setThumbnail(`attachment://${buildInfo.Omnicell}`)
+                    .setImage('attachment://dauntless-catalyst-builds.png')
+                    .setTitle(`${element} ${weapon} Catalyst Build:`);
+            }
             interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
         }
         catch (error) {
