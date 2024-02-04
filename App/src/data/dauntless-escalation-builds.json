@@ -116,7 +116,6 @@
             "Frost":{
                 "Armour":["Head.png","Torso.png","Arms.png","Legs.png","Lantern.png"],
                 "Omnicell":["Omnicell.png"],
-                "Perks":["..."],
                 "Weapon":["Weapon.png"]
             },
             "Radiant":{
@@ -129,28 +128,46 @@
         },
         "Heroic Escalation Speedrun":{
             "Shock":{
-                "Icons":["Discipline.png","MistralCurrents.png","TimeweaveHelm.png","SkraevwingJacket.png","FieryGauntlets.png","StrideOfThorns.png","PangarsShine.png"],
-                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Pulse"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","FieryGauntlets.png","StrideOfThorns.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Pulse"],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":["MistralCurrents.png","SahvytsGrapplers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Blaze":{
-                "Icons":["Discipline.png","TectonicFaults.png","TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","SkraevwingBoots.png","EmbermanesRapture.png"],
-                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Overpower"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","SkraevwingBoots.png","EmbermanesRapture.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Overpower"],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":["TectonicFaults.png","InfernosFlames.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Umbral":{
-                "Icons":["Discipline.png","FracturedRealities.png","TimeweaveHelm.png","SkraevwingJacket.png","FieryGauntlets.png","TimeweaveLeggings.png","BroadsidesLantern.png"],
-                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Assassin's Frenzy","+3 Berserker"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","FieryGauntlets.png","TimeweaveLeggings.png","BroadsidesLantern.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Assassin's Frenzy","+3 Berserker"],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":["FracturedRealities.png","StalkersScorn.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Terra":{
-                "Icons":["Discipline.png","AgentsOfDecay.png","TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","SkraevwingBoots.png","PangarsShine.png"],
-                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Bladestorm"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","MalkarionsGrasp.png","SkraevwingBoots.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Berserker","+3 Bladestorm"],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":["AgentsOfDecay.png","KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Frost":{
-                "Icons":["Discipline.png","IceBreakers.png","DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","TimeweaveLeggings.png","PangarsShine.png"],
-                "Perks":["+6 Adrenaline","+6 Berserker","+6 Catalyst","+6 Cunning","+6 Galvanized","+6 Predator"]
+                "Armour":["DarkWatch.png","ThraxsShadow.png","MalkarionsGrasp.png","TimeweaveLeggings.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Catalyst","+6 Cunning","+6 Galvanized","+6 Predator"],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":["IceBreakers.png","FrostwulfsTacklers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Radiant":{
-                "Icons":["Discipline.png","Chaos&Entropy.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","ThraxsGuile.png","KoshaisBloom.png"],
-                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Aetherhunter","+3 Berserker"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","ThraxsGuile.png","KoshaisBloom.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Catalyst","+6 Cunning","+6 Endurance","+6 Predator","+3 Aetherhunter","+3 Berserker"],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":["Chaos&Entropy.png","ValomyrsVisions.png","TitansCrash.png","CyclonicStrikeplate.png"]
             }
         }
     },
@@ -421,372 +438,588 @@
         },
         "Heroic Escalation Survival":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Speedrun":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         }
     },
     "Repeater":{
         "Pre-Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             }
         },
         "Legendary Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Survival":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Speedrun":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         }
     },
     "Sword":{
         "Pre-Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             }
         },
         "Legendary Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Survival":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Speedrun":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         }
     },
     "War Pike":{
         "Pre-Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Weapon":[""]
             }
         },
         "Legendary Escalation":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Survival":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Bastion.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         },
         "Heroic Escalation Speedrun":{
             "Shock":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Blaze":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Umbral":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Terra":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Frost":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             },
             "Radiant":{
-                "Icons":[""],
-                "Perks":[""]
+                "Armour":[""],
+                "Omnicell":["Discipline.png"],
+                "Perks":[""],
+                "Supplies":["HealingFlask.png","AetherdriveTonic.png","BlitzTonic.png","FrenzyTonic.png"],
+                "Weapon":[""]
             }
         }
     }

@@ -78,12 +78,22 @@ module.exports = {
 
             const thumbnailFile = new AttachmentBuilder(thumbnailPath);
             const imageFile = new AttachmentBuilder(imagePath);
-            const embed = new EmbedBuilder()
-                .setColor(embedColor)
-                .setDescription(buildInfo.Perks.join('\n'))
-                .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                .setImage('attachment://dauntless-escalation-builds.png')
-                .setTitle(`${element} ${weapon} ${escalation} Build:`);
+            let embed;
+            if (buildInfo.Perks) {
+                embed = new EmbedBuilder()
+                    .setColor(embedColor)
+                    .setDescription(buildInfo.Perks.join('\n'))
+                    .setThumbnail(`attachment://${buildInfo.Omnicell}`)
+                    .setImage('attachment://dauntless-escalation-builds.png')
+                    .setTitle(`${element} ${weapon} ${escalation} Build:`);
+            }
+            else {
+                embed = new EmbedBuilder()
+                    .setColor(embedColor)
+                    .setThumbnail(`attachment://${buildInfo.Omnicell}`)
+                    .setImage('attachment://dauntless-escalation-builds.png')
+                    .setTitle(`${element} ${weapon} ${escalation} Build:`);
+            }
             interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
         }
         catch (error) {
