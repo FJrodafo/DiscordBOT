@@ -47,28 +47,40 @@
         },
         "Legendary Escalation":{
             "Shock":{
-                "Icons":["Discipline.png","MistralCurrents.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
-                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Molten","+3 Pulse"]
+                "Armour":["TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Molten","+3 Pulse"],
+                "Weapon":["MistralCurrents.png","SahvytsGrapplers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Blaze":{
-                "Icons":["Discipline.png","TectonicFaults.png","TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
-                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Molten"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Molten"],
+                "Weapon":["TectonicFaults.png","InfernosFlames.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Umbral":{
-                "Icons":["Discipline.png","FracturedRealities.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
-                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Molten"]
+                "Armour":["TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Molten"],
+                "Weapon":["FracturedRealities.png","StalkersScorn.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Terra":{
-                "Icons":["Discipline.png","AgentsOfDecay.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
-                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Bladestorm","+3 Molten"]
+                "Armour":["TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Bladestorm","+3 Molten"],
+                "Weapon":["AgentsOfDecay.png","KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Frost":{
-                "Icons":["Discipline.png","IceBreakers.png","TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
-                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Knockout King","+3 Molten"]
+                "Armour":["TimeweaveHelm.png","TimeweaveRobes.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Adrenaline","+3 Assassin's Frenzy","+3 Knockout King","+3 Molten"],
+                "Weapon":["IceBreakers.png","PangarsPunishers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Radiant":{
-                "Icons":["Discipline.png","Chaos&Entropy.png","TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Berserker","+3 Molten"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","PangarsShine.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Berserker","+3 Molten"],
+                "Weapon":["Chaos&Entropy.png","ValomyrsVisions.png","TitansCrash.png","CyclonicStrikeplate.png"]
             }
         },
         "Heroic Escalation Survival":{
