@@ -82,17 +82,17 @@ module.exports = {
             if (buildInfo.Perks) {
                 embed = new EmbedBuilder()
                     .setColor(embedColor)
+                    .setTitle(`${element} ${weapon} ${escalation} Build:`)
                     .setDescription(buildInfo.Perks.join('\n'))
                     .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                    .setImage('attachment://dauntless-escalation-builds.png')
-                    .setTitle(`${element} ${weapon} ${escalation} Build:`);
+                    .setImage('attachment://dauntless-escalation-builds.png');
             }
             else {
                 embed = new EmbedBuilder()
                     .setColor(embedColor)
+                    .setTitle(`${element} ${weapon} ${escalation} Build:`)
                     .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                    .setImage('attachment://dauntless-escalation-builds.png')
-                    .setTitle(`${element} ${weapon} ${escalation} Build:`);
+                    .setImage('attachment://dauntless-escalation-builds.png');
             }
             interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
         }

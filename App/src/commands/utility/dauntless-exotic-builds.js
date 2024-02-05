@@ -38,10 +38,10 @@ module.exports = {
             const imageFile = new AttachmentBuilder(imagePath);
             const embed = new EmbedBuilder()
                 .setColor(0xFFFFFF)
+                .setTitle(`${weapon} Exotic Build:`)
                 .setDescription(buildInfo.Perks.join('\n'))
                 .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                .setImage('attachment://dauntless-exotic-builds.png')
-                .setTitle(`${weapon} Exotic Build:`);
+                .setImage('attachment://dauntless-exotic-builds.png');
             interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
         }
         catch (error) {

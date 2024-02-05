@@ -100,10 +100,10 @@ module.exports = {
             const imageFile = new AttachmentBuilder(imagePath);
             const embed = new EmbedBuilder()
                 .setColor(embedColor)
+                .setTitle(`${element} ${weapon} ${omnicell} Build:`)
                 .setDescription(buildInfo.Perks.join('\n'))
                 .setThumbnail(`attachment://${buildInfo.Icons[0]}`)
-                .setImage('attachment://dauntless-meta-builds.png')
-                .setTitle(`${element} ${weapon} ${omnicell} Build:`);
+                .setImage('attachment://dauntless-meta-builds.png');
             interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
         }
         catch (error) {

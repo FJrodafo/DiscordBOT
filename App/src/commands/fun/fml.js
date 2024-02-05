@@ -26,10 +26,10 @@ module.exports = {
 
             const embed = new EmbedBuilder()
                 .setColor(0xFC8CB4)
+                .setTitle(articleData.author)
                 .setDescription(articleData.text)
-                .setImage('https://www.fmylife.com/images/header/baseline-fml.png')
                 .setThumbnail('https://www.fmylife.com/images/header/logo-fml.png')
-                .setTitle(articleData.author);
+                .setImage('https://www.fmylife.com/images/header/baseline-fml.png');
             const row = new ActionRowBuilder()
                 .addComponents(
                     new ButtonBuilder()
