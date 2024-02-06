@@ -1,4 +1,76 @@
 const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discord.js');
+const puppeteer = require('puppeteer');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('dauntless-gauntlet-leaderboard')
+        .setDescription('🦖 Provides information on the top 5 in Gauntlet.'),
+    async execute(interaction) {
+        await interaction.deferReply();
+
+        const browser = await puppeteer.launch({ headless: 'new' });
+        const page = await browser.newPage();
+
+        try {
+            await page.goto('https://playdauntless.com/gauntlet/leaderboard/', { waitUntil: 'networkidle2' });
+
+            const topGuilds = await page.$eval('.leaderboard__entries', el => {
+                const entries = el.querySelectorAll('.leaderboard__entry');
+                const guilds = [];
+
+                entries.forEach((entry) => {
+                    const rank = entry.querySelector('.rank').innerText;
+                    const guildName = entry.querySelector('.guild-name').innerText;
+                    const guildTag = entry.querySelector('.guild-tag').innerText;
+                    const level = entry.querySelector('.level span').innerText;
+                    const timeLeft = entry.querySelector('.time-left span').innerText;
+
+                    guilds.push({
+                        rank,
+                        guildName,
+                        guildTag,
+                        level,
+                        timeLeft,
+                    });
+                });
+
+                return guilds.slice(0, 5);
+            });
+
+            const topGuildsInfo = topGuilds.map((guild, index) => (`\n${getRankEmoji(index + 1)} **${guild.guildName}** [${guild.guildTag}]\nLevel: **${guild.level}** Time Left: **${guild.timeLeft}**`)).join('\n');
+            const iconPath = '../../assets/dauntless/Gauntlet.png';
+            const iconFile = new AttachmentBuilder(iconPath);
+            const embed = new EmbedBuilder()
+                .setColor(0xC09146)
+                .setAuthor({ name: 'Gauntlet Leaderboard', iconURL: 'attachment://Gauntlet.png', url: 'https://playdauntless.com/gauntlet/leaderboard/' })
+                .setDescription(topGuildsInfo);
+            await interaction.editReply({ embeds: [embed], files: [iconFile] });
+        }
+        catch (error) {
+            console.error('Unexpected error:', error);
+            interaction.reply({ content: 'Unexpected error.', ephemeral: true });
+        }
+        finally {
+            await browser.close();
+        }
+    },
+};
+
+function getRankEmoji(rank) {
+    switch (rank) {
+    case 1:
+        return '🥇';
+    case 2:
+        return '🥈';
+    case 3:
+        return '🥉';
+    default:
+        return `**${rank}.**`;
+    }
+}
+
+/*
+const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discord.js');
 const https = require('https');
 
 module.exports = {
@@ -61,56 +133,4 @@ function formatTime(seconds) {
 
     return `${formattedMinutes}:${formattedSeconds}`;
 }
-
-/*
-const { SlashCommandBuilder } = require('discord.js');
-const puppeteer = require('puppeteer');
-
-module.exports = {
-    data: new SlashCommandBuilder()
-        .setName('dauntless-gauntlet-leaderboard')
-        .setDescription('Provides information on the top 5 in Gauntlet.'),
-    async execute(interaction) {
-        try {
-            const browser = await puppeteer.launch({ headless: "new" });
-            const page = await browser.newPage();
-            await page.goto('https://playdauntless.com/gauntlet/leaderboard/');
-
-            const topGuilds = await page.evaluate(() => {
-                const entries = document.querySelectorAll('.leaderboard__entry');
-                const guilds = [];
-
-                entries.forEach((entry) => {
-                    const rank = entry.querySelector('.rank').textContent.trim();
-                    const guildName = entry.querySelector('.guild-name').textContent.trim();
-                    const guildTag = entry.querySelector('.guild-tag').textContent.trim();
-                    const level = entry.querySelector('.level span').textContent.trim();
-                    const timeLeft = entry.querySelector('.time-left span').textContent.trim();
-
-                    guilds.push({
-                        rank,
-                        guildName,
-                        guildTag,
-                        level,
-                        timeLeft,
-                    });
-                });
-
-                return guilds.slice(0, 5);
-            });
-
-            await browser.close();
-
-            const response = topGuilds.map(guild => `${guild.rank}. ${guild.guildName} [${guild.guildTag}] - Level: ${guild.level} | Time Left: ${guild.timeLeft}`).join('\n');
-            if (interaction.deferred) {
-                interaction.editReply(response);
-            } else {
-                interaction.reply(response);
-            }
-        } catch (error) {
-            console.error('Unexpected error:', error);
-            interaction.reply({ content: 'Unexpected error.', ephemeral: true });
-        }
-    },
-};
 */

@@ -13,6 +13,7 @@ module.exports = {
 
         try {
             await page.goto('https://www.fmylife.com/random', { waitUntil: 'networkidle2' });
+
             const articleData = await page.$eval('article', el => {
                 const anchors = el.querySelectorAll('a');
                 const lastAnchor = anchors[anchors.length - 1];
@@ -40,8 +41,8 @@ module.exports = {
             await interaction.editReply({ embeds: [embed], components: [row] });
         }
         catch (error) {
-            console.error('Error during scraping:', error);
-            await interaction.editReply({ content: 'An error occurred while getting the story. Please try again later.', ephemeral: true });
+            console.error('Unexpected error:', error);
+            await interaction.reply({ content: 'Unexpected error.', ephemeral: true });
         }
         finally {
             await browser.close();
