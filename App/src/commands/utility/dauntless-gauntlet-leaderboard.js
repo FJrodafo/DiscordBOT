@@ -19,7 +19,7 @@ module.exports = {
                     const topGuilds = leaderboardData.leaderboard.slice(0, 5);
 
                     const topGuildsInfo = topGuilds.map((guild, index) => (`\n${getRankEmoji(index + 1)} **${guild.guild_name}** [${guild.guild_nameplate}]\nLevel: **${guild.level}** Time Left: **${formatTime(guild.remaining_sec)}**`)).join('\n');
-                    const iconPath = `../../assets/dauntless/Gauntlet.png`;
+                    const iconPath = '../../assets/dauntless/Gauntlet.png';
                     const iconFile = new AttachmentBuilder(iconPath);
                     const embed = new EmbedBuilder()
                         .setColor(0xC09146)
@@ -31,7 +31,8 @@ module.exports = {
                 console.error('Error obtaining information:', error);
                 interaction.reply({ content: 'Error obtaining information.', ephemeral: true });
             });
-        } catch (error) {
+        }
+        catch (error) {
             console.error('Unexpected error:', error);
             interaction.reply({ content: 'Unexpected error.', ephemeral: true });
         }
@@ -40,14 +41,14 @@ module.exports = {
 
 function getRankEmoji(rank) {
     switch (rank) {
-        case 1:
-            return '🥇';
-        case 2:
-            return '🥈';
-        case 3:
-            return '🥉';
-        default:
-            return `**${rank}.**`;
+    case 1:
+        return '🥇';
+    case 2:
+        return '🥈';
+    case 3:
+        return '🥉';
+    default:
+        return `**${rank}.**`;
     }
 }
 
