@@ -27,7 +27,7 @@ module.exports = {
         }
         catch (error) {
             console.error('Unexpected error:', error);
-            interaction.reply({ content: 'Unexpected error.', ephemeral: true });
+            interaction.reply({ content: 'Unexpected error. Please try again later.', ephemeral: true });
         }
         finally {
             await browser.close();
@@ -87,7 +87,7 @@ module.exports = {
         }
         catch (error) {
             console.error('Unexpected error:', error);
-            interaction.reply({ content: 'Unexpected error.', ephemeral: true });
+            interaction.reply({ content: 'Unexpected error. Please try again later.', ephemeral: true });
         }
         finally {
             await browser.close();
@@ -142,12 +142,12 @@ module.exports = {
                 });
             }).on('error', (error) => {
                 console.error('Error obtaining information:', error);
-                interaction.reply({ content: 'Error obtaining information.', ephemeral: true });
+                interaction.reply({ content: 'Error obtaining information. Please try again later.', ephemeral: true });
             });
         }
         catch (error) {
             console.error('Unexpected error:', error);
-            interaction.reply({ content: 'Unexpected error.', ephemeral: true });
+            interaction.reply({ content: 'Unexpected error. Please try again later.', ephemeral: true });
         }
     },
 };

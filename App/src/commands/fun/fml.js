@@ -42,7 +42,7 @@ module.exports = {
         }
         catch (error) {
             console.error('Unexpected error:', error);
-            await interaction.reply({ content: 'Unexpected error.', ephemeral: true });
+            await interaction.reply({ content: 'Unexpected error. Please try again later.', ephemeral: true });
         }
         finally {
             await browser.close();
