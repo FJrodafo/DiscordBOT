@@ -1,3 +1,42 @@
+const { SlashCommandBuilder, AttachmentBuilder } = require('discord.js');
+const puppeteer = require('puppeteer');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('dauntless-gauntlet-leaderboard')
+        .setDescription('🦖 Provides information on the top 5 in Gauntlet.'),
+    async execute(interaction) {
+        await interaction.deferReply();
+
+        const browser = await puppeteer.launch({ headless: 'new' });
+        const page = await browser.newPage();
+
+        try {
+            await page.setViewport({ width: 1920, height: 1080 });
+            await page.goto('https://playdauntless.com/gauntlet/leaderboard/', { waitUntil: 'networkidle2' });
+
+            await page.screenshot({
+                path: 'dauntless-gauntlet-leaderboard.png',
+                type: 'png',
+                clip: { x: 761, y: 440, width: 600, height: 421 },
+            });
+
+            const imagePath = './dauntless-gauntlet-leaderboard.png';
+            const imageFile = new AttachmentBuilder(imagePath);
+            await interaction.editReply({ files: [imageFile] });
+        }
+        catch (error) {
+            console.error('Unexpected error:', error);
+            interaction.reply({ content: 'Unexpected error.', ephemeral: true });
+        }
+        finally {
+            await browser.close();
+        }
+    },
+};
+
+// URL
+/*
 const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discord.js');
 const puppeteer = require('puppeteer');
 
@@ -68,7 +107,9 @@ function getRankEmoji(rank) {
         return `**${rank}.**`;
     }
 }
+*/
 
+// JSON
 /*
 const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discord.js');
 const https = require('https');
