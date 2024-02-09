@@ -3,7 +3,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('clear')
-        .setDescription('🧹 Clear up to 99 messages!')
+        .setDescription('Clear up to 99 messages!')
         .setDefaultMemberPermissions(0)
         .addIntegerOption(option => option
             .setName('amount')
@@ -12,7 +12,6 @@ module.exports = {
         ),
     async execute(interaction) {
         const amount = interaction.options.getInteger('amount');
-
         if (amount < 1 || amount > 99) {
             return interaction.reply({ content: 'You need to input a number between 1 and 99.', ephemeral: true });
         }
@@ -20,7 +19,6 @@ module.exports = {
             console.error(error);
             interaction.reply({ content: 'There was an error trying to clear messages in this channel!', ephemeral: true });
         });
-
         const embed = new EmbedBuilder()
             .setColor(0xFF005C)
             .setDescription(`🧹 Successfully cleared \`${amount}\` messages.`);
@@ -43,7 +41,6 @@ module.exports = {
         ),
     async execute(interaction) {
         const amount = interaction.options.getInteger('amount');
-
         if (amount < 1 || amount > 99) {
             return interaction.reply({ content: 'You need to input a number between 1 and 99.', ephemeral: true });
         }
@@ -51,7 +48,6 @@ module.exports = {
             console.error(error);
             interaction.reply({ content: 'There was an error trying to prune messages in this channel!', ephemeral: true });
         });
-
         return interaction.reply({ content: `Successfully pruned \`${amount}\` messages.`, ephemeral: true });
     },
 };

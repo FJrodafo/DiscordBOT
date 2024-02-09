@@ -5,7 +5,6 @@ module.exports = {
     once: true,
     execute(client) {
         console.log(`Ready! Logged in as ${client.user.tag}`);
-
         const status = [
             {
                 activities: [{
@@ -50,7 +49,6 @@ module.exports = {
                 status: 'dnd',
             },
         ];
-
         function updateStatus() {
             const random = Math.floor(Math.random() * status.length);
             client.user.setPresence(status[random]);

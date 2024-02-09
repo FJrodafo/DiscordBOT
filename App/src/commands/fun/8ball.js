@@ -3,7 +3,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('8ball')
-        .setDescription('🎱 Get your 8ball answer!')
+        .setDescription('Get your 8ball answer!')
         .addStringOption(option => option
             .setName('question')
             .setDescription('Type your question')
@@ -11,7 +11,6 @@ module.exports = {
         ),
     async execute(interaction) {
         const question = interaction.options.getString('question');
-
         const msg = [
             'It is certain.', 'It is decidely so.', 'Without a doubt.', 'Yes definitely.',
             'You may rely on it.', 'As I see it, yes.', 'Most likely.', 'Outlook good.',
@@ -21,7 +20,6 @@ module.exports = {
             'Very doubtful.',
         ];
         const randomMessage = () => msg[Math.floor(Math.random() * msg.length)];
-
         const embed = new EmbedBuilder()
             .setColor(0xFFFFFF)
             .addFields(

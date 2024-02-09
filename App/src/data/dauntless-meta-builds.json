@@ -88,106 +88,158 @@
         },
         "Discipline":{
             "Shock":{
-                "Armour":["Discipline.png","MistralCurrents.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["⭐","+6 Adrenaline","+6 Cunning","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Best":["⭐"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"],
+                "Weapon":["MistralCurrents.png","SahvytsGrapplers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Blaze":{
-                "Armour":["Discipline.png","TectonicFaults.png","TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["TimeweaveHelm.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","SkarnsDefiance.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["TectonicFaults.png","InfernosFlames.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Umbral":{
-                "Armour":["Discipline.png","FracturedRealities.png","DarkWatch.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","TorgadorosBrawn.png","ThraxsGuile.png","SkarnsDefiance.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["FracturedRealities.png","StalkersScorn.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Terra":{
-                "Armour":["Discipline.png","AgentsOfDecay.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Predator","+3 Assassin's Frenzy","+3 Bladestorm","+3 Overpower","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Berserker","+6 Cunning","+6 Predator","+3 Assassin's Frenzy","+3 Bladestorm","+3 Overpower","+3 Reuse"],
+                "Weapon":["AgentsOfDecay.png","KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Frost":{
-                "Armour":["Discipline.png","IceBreakers.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Galvanized","+6 Predator","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Galvanized","+6 Predator","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"],
+                "Weapon":["IceBreakers.png","FrostwulfsTacklers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Radiant":{
-                "Armour":["Discipline.png","Chaos&Entropy.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Endurance","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Discipline.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+3 Aetherhunter","+3 Assassin's Frenzy","+3 Endurance","+3 Reuse"],
+                "Weapon":["Chaos&Entropy.png","ValomyrsVisions.png","TitansCrash.png","CyclonicStrikeplate.png"]
             }
         },
         "Iceborne":{
             "Shock":{
-                "Armour":["Iceborne.png","MistralCurrents.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["⭐","+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Best":["⭐"],
+                "Omnicell":["Iceborne.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"],
+                "Weapon":["MistralCurrents.png","SahvytsGrapplers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Blaze":{
-                "Armour":["Iceborne.png","TectonicFaults.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+3 Assassin's Frenzy","+3 Berserker","+3 Pulse","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Iceborne.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+3 Assassin's Frenzy","+3 Berserker","+3 Pulse","+3 Reuse"],
+                "Weapon":["TectonicFaults.png","InfernosFlames.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Umbral":{
-                "Armour":["Iceborne.png","FracturedRealities.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Tenacious","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","VolcanicTreads.png","SkarnsDefiance.png"],
+                "Omnicell":["Iceborne.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Tenacious","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["FracturedRealities.png","StalkersScorn.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Terra":{
-                "Armour":["Iceborne.png","AgentsOfDecay.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker","+3 Bladestorm","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Iceborne.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Pulse","+3 Assassin's Frenzy","+3 Berserker","+3 Bladestorm","+3 Reuse"],
+                "Weapon":["AgentsOfDecay.png","KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Frost":{
-                "Armour":["Iceborne.png","IceBreakers.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Galvanized","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Iceborne.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Galvanized","+3 Assassin's Frenzy","+3 Berserker","+3 Overpower","+3 Reuse"],
+                "Weapon":["IceBreakers.png","FrostwulfsTacklers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Radiant":{
-                "Armour":["Iceborne.png","Chaos&Entropy.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","SkraevwingBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Reuse","+3 Aetherhunter","+3 Berserker"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","SkraevwingBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Iceborne.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Reuse","+3 Aetherhunter","+3 Berserker"],
+                "Weapon":["Chaos&Entropy.png","ValomyrsVisions.png","TitansCrash.png","CyclonicStrikeplate.png"]
             }
         },
         "Revenant":{
             "Shock":{
-                "Armour":["Revenant.png","MistralCurrents.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["⭐","+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Best":["⭐"],
+                "Omnicell":["Revenant.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+6 Pulse","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["MistralCurrents.png","SahvytsGrapplers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Blaze":{
-                "Armour":["Revenant.png","TectonicFaults.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Revenant.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["TectonicFaults.png","InfernosFlames.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Umbral":{
-                "Armour":["Revenant.png","FracturedRealities.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Revenant.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["FracturedRealities.png","HandsOfNight.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Terra":{
-                "Armour":["Revenant.png","AgentsOfDecay.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Predator","+6 Overpower","+3 Assassin's Frenzy","+3 Berserker","+3 Bladestorm","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Revenant.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Berserker","+3 Bladestorm","+3 Reuse"],
+                "Weapon":["AgentsOfDecay.png","KharabaksPincers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Frost":{
-                "Armour":["Revenant.png","IceBreakers.png","DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Galvanized","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","MalkarionsGrasp.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Revenant.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Galvanized","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["IceBreakers.png","FrostwulfsTacklers.png","TitansCrash.png","CyclonicStrikeplate.png"]
             },
             "Radiant":{
-                "Armour":["Revenant.png","Chaos&Entropy.png","DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
-                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"]
+                "Armour":["DarkWatch.png","SkraevwingJacket.png","FieryGauntlets.png","BladedBoots.png","SkarnsDefiance.png"],
+                "Omnicell":["Revenant.png"],
+                "Perks":["+6 Adrenaline","+6 Cunning","+6 Endurance","+6 Overpower","+6 Predator","+3 Assassin's Frenzy","+3 Reuse"],
+                "Weapon":["Chaos&Entropy.png","HandsOfDawn.png","TitansCrash.png","CyclonicStrikeplate.png"]
             }
         },
         "Tempest":{
             "Shock":{
-                "Armour":["Tempest.png","MistralCurrents.png","SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
-                "Perks":["+6 Fleet Footed","+6 Impulse","+6 Invigorated","+6 Molten","+6 Predator","+6 Pulse"]
+                "Armour":["SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
+                "Omnicell":["Tempest.png"],
+                "Perks":["+6 Fleet Footed","+6 Impulse","+6 Invigorated","+6 Molten","+6 Predator","+6 Pulse"],
+                "Weapon":["MistralCurrents.png","SahvytsGrapplers.png","TitansCrash.png","InertialFistguard.png"]
             },
             "Blaze":{
-                "Armour":["Tempest.png","TectonicFaults.png","SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
-                "Perks":["+6 Predator","+6 Molten","+6 Invigorated","+6 Inertia","+6 Impulse","+3 Fleet Footed","+3 Overpower"]
+                "Armour":["SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
+                "Omnicell":["Tempest.png"],
+                "Perks":["+6 Impulse","+6 Inertia","+6 Invigorated","+6 Molten","+6 Predator","+3 Fleet Footed","+3 Overpower"],
+                "Weapon":["TectonicFaults.png","InfernosFlames.png","TitansCrash.png","InertialFistguard.png"]
             },
             "Umbral":{
-                "Armour":["Tempest.png","FracturedRealities.png","SpellboundHood.png","ThraxsShadow.png","MalkarionsGrasp.png","Chronotreads.png","ShrikesZeal.png"],
-                "Perks":["⭐","+6 Cunning","+6 Impulse","+6 Invigorated","+6 Predator","+6 Pulse","+3 Fire","+3 Molten"]
+                "Armour":["SpellboundHood.png","ThraxsShadow.png","MalkarionsGrasp.png","Chronotreads.png","ShrikesZeal.png"],
+                "Best":["⭐"],
+                "Omnicell":["Tempest.png"],
+                "Perks":["+6 Cunning","+6 Impulse","+6 Invigorated","+6 Predator","+6 Pulse","+3 Fire","+3 Molten"],
+                "Weapon":["FracturedRealities.png","HandsOfNight.png","TitansCrash.png","InertialFistguard.png"]
             },
             "Terra":{
-                "Armour":["Tempest.png","AgentsOfDecay.png","SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
-                "Perks":["+6 Predator","+6 Molten","+6 Invigorated","+6 Inertia","+6 Impulse","+3 Fleet Footed","+3 Sharpened"]
+                "Armour":["SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
+                "Omnicell":["Tempest.png"],
+                "Perks":["+6 Impulse","+6 Inertia","+6 Invigorated","+6 Molten","+6 Predator","+3 Fleet Footed","+3 Sharpened"],
+                "Weapon":["AgentsOfDecay.png","SovereignsSceptres.png","TitansCrash.png","InertialFistguard.png"]
             },
             "Frost":{
-                "Armour":["Tempest.png","IceBreakers.png","SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
-                "Perks":["+6 Predator","+6 Molten","+6 Invigorated","+6 Inertia","+6 Impulse","+3 Fleet Footed","+3 Knockout King"]
+                "Armour":["SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
+                "Omnicell":["Tempest.png"],
+                "Perks":["+6 Impulse","+6 Inertia","+6 Invigorated","+6 Molten","+6 Predator","+3 Fleet Footed","+3 Knockout King"],
+                "Weapon":["IceBreakers.png","PangarsPunishers.png","TitansCrash.png","InertialFistguard.png"]
             },
             "Radiant":{
-                "Armour":["Tempest.png","Chaos&Entropy.png","SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
-                "Perks":["+6 Impulse","+6 Inertia","+6 Invigorated","+6 Molten","+6 Predator","+3 Aetherhunter","+3 Fleet Footed"]
+                "Armour":["SpellboundHood.png","MantleOfThorns.png","MalkarionsGrasp.png","PhaelanxsHeatsinks.png","ShrikesZeal.png"],
+                "Omnicell":["Tempest.png"],
+                "Perks":["+6 Impulse","+6 Inertia","+6 Invigorated","+6 Molten","+6 Predator","+3 Aetherhunter","+3 Fleet Footed"],
+                "Weapon":["Chaos&Entropy.png","ValomyrsVisions.png","TitansCrash.png","InertialFistguard.png"]
             }
         },
         "Catalyst":{

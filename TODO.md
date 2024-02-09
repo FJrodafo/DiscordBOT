@@ -8,10 +8,11 @@
 
 ## Dauntless
 
-- [x] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Aether Strikers Artificer**
-- [x] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Aether Strikers Bastion**
-- [ ] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data
-- [ ] Dauntless [Trials](https://docs.google.com/spreadsheets/d/1Kv3nlr7y5DJB_olhATqXXh-jPCkDygNCVyHkDwllTsc/edit#gid=0) Data
+- [x] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Aether Strikers Discipline**
+- [x] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Aether Strikers Iceborne**
+- [x] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Aether Strikers Revenant**
+- [x] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Aether Strikers Tempest**
+- [ ] Dauntless [Meta Builds](https://docs.google.com/spreadsheets/d/1-I4LQ_8uNqV9LuybXhz2wjmcPeTNNGWRZ-kFjsckwtk/edit#gid=0) Data **Axe Artificer**
 
 ## Database
 
