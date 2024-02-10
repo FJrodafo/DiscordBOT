@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('fml')
-        .setDescription('📒 Your everyday life stories!'),
+        .setDescription('Your everyday life stories!'),
     async execute(interaction) {
         await interaction.deferReply();
         const browser = await puppeteer.launch({ headless: 'new' });
