@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, AttachmentBuilder } = require('discord.js');
 const puppeteer = require('puppeteer');
 
 module.exports = {
@@ -25,9 +25,7 @@ module.exports = {
         });
         const imagePath = './web-screenshot.png';
         const imageFile = new AttachmentBuilder(imagePath);
-        const embed = new EmbedBuilder()
-            .setImage('attachment://web-screenshot.png');
-        await interaction.editReply({ embeds: [embed], files: [imageFile] });
+        await interaction.editReply({ files: [imageFile] });
         await browser.close();
     },
 };

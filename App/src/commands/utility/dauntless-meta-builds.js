@@ -23,24 +23,6 @@ module.exports = {
             ),
         )
         .addStringOption(option => option
-            .setName('type')
-            .setDescription('Select an type')
-            .setRequired(true)
-            .addChoices(
-                { name: 'Artificer', value: 'Artificer' },
-                { name: 'Bastion', value: 'Bastion' },
-                { name: 'Discipline', value: 'Discipline' },
-                { name: 'Iceborne', value: 'Iceborne' },
-                { name: 'Revenant', value: 'Revenant' },
-                { name: 'Tempest', value: 'Tempest' },
-                { name: 'Catalyst', value: 'Catalyst' },
-                { name: 'Pre-Escalation', value: 'Pre-Escalation' },
-                { name: 'Legendary Escalation', value: 'Legendary Escalation' },
-                { name: 'Heroic Escalation Survival', value: 'Heroic Escalation Survival' },
-                { name: 'Heroic Escalation Speedrun', value: 'Heroic Escalation Speedrun' },
-            ),
-        )
-        .addStringOption(option => option
             .setName('element')
             .setDescription('Select an element')
             .setRequired(true)
@@ -55,59 +37,30 @@ module.exports = {
         ),
     async execute(interaction) {
         const weapon = interaction.options.getString('weapon');
-        const type = interaction.options.getString('type');
         const element = interaction.options.getString('element');
         const data = require(jsonPath);
-        const buildInfo = data[weapon][type][element];
-        let embedColor = 0xFFFFFF;
-        switch (type) {
-        case 'Artificer': embedColor = 0xACD1AF; break;
-        case 'Bastion': embedColor = 0xEEEE9B; break;
-        case 'Discipline': embedColor = 0xF47174; break;
-        case 'Iceborne': embedColor = 0xACD1AF; break;
-        case 'Revenant': embedColor = 0xF47174; break;
-        case 'Tempest': embedColor = 0xF5CA7B; break;
-        case 'Catalyst': embedColor = 0x000000; break;
-        case 'Pre-Escalation': embedColor = 0xACD1AF; break;
-        case 'Legendary Escalation': embedColor = 0xEEEE9B; break;
-        case 'Heroic Escalation Survival': embedColor = 0xF5CA7B; break;
-        case 'Heroic Escalation Speedrun': embedColor = 0xF47174; break;
-        default: embedColor = 0xFFFFFF; break;
-        }
+        const buildInfo = data[weapon][element];
         const thumbnailPath = `./../../assets/dauntless/builds/${buildInfo.Omnicell}`;
         const imagePath = './dauntless-meta-builds.png';
-        let combinedImage;
-        if (buildInfo.Supplies) {
-            combinedImage = await combineImagesWithSupplies(buildInfo.Weapon, buildInfo.Armour, buildInfo.Supplies);
-        }
-        else {
-            combinedImage = await combineImages(buildInfo.Weapon, buildInfo.Armour);
-        }
+        const combinedImage = await combineImages(buildInfo.Weapon, buildInfo.Armour, buildInfo.Supplies);
         fs.writeFileSync(imagePath, combinedImage.toBuffer());
         const thumbnailFile = new AttachmentBuilder(thumbnailPath);
         const imageFile = new AttachmentBuilder(imagePath);
         let embed;
         if (buildInfo.Best) {
             embed = new EmbedBuilder()
-                .setColor(embedColor)
-                .setTitle(`${element} ${weapon} ${type} Build:`)
+                .setColor(0xFFFFFF)
+                .setTitle(`${element} ${weapon} Meta Build:`)
                 .setDescription(buildInfo.Perks.join('\n'))
                 .setThumbnail(`attachment://${buildInfo.Omnicell}`)
                 .setImage('attachment://dauntless-meta-builds.png')
                 .setFooter({ text: `${buildInfo.Best}` });
         }
-        else if (buildInfo.Perks) {
-            embed = new EmbedBuilder()
-                .setColor(embedColor)
-                .setTitle(`${element} ${weapon} ${type} Build:`)
-                .setDescription(buildInfo.Perks.join('\n'))
-                .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                .setImage('attachment://dauntless-meta-builds.png');
-        }
         else {
             embed = new EmbedBuilder()
-                .setColor(embedColor)
-                .setTitle(`${element} ${weapon} ${type} Build:`)
+                .setColor(0xFFFFFF)
+                .setTitle(`${element} ${weapon} Meta Build:`)
+                .setDescription(buildInfo.Perks.join('\n'))
                 .setThumbnail(`attachment://${buildInfo.Omnicell}`)
                 .setImage('attachment://dauntless-meta-builds.png');
         }
@@ -115,28 +68,15 @@ module.exports = {
     },
 };
 
-async function combineImagesWithSupplies(weapon, armour, supplies) {
+async function combineImages(weapon, armour, supplies) {
     const canvas = createCanvas(320, 180);
     const ctx = canvas.getContext('2d');
     const weaponRowStartX = (canvas.width - weapon.length * 64) / 2;
     const suppliesRowStartX = (canvas.width - supplies.length * 32) / 2;
-    if (weapon.length !== 5) {
-        await drawIcons(ctx, weapon, 0, weaponRowStartX, 1);
-    }
-    else {
-        await drawIcons(ctx, weapon, 0, 0, 1);
-    }
+    if (weapon.length !== 5) await drawIcons(ctx, weapon, 0, weaponRowStartX, 1);
+    else await drawIcons(ctx, weapon, 0, 0, 1);
     await drawIcons(ctx, armour, 74, 0, 1);
     await drawIcons(ctx, supplies, 148, suppliesRowStartX, 0.5);
-    return canvas;
-}
-
-async function combineImages(weapon, armour) {
-    const canvas = createCanvas(320, 138);
-    const ctx = canvas.getContext('2d');
-    const weaponRowStartX = (canvas.width - weapon.length * 64) / 2;
-    await drawIcons(ctx, weapon, 0, weaponRowStartX, 1);
-    await drawIcons(ctx, armour, 74, 0, 1);
     return canvas;
 }
 
