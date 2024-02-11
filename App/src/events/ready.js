@@ -8,31 +8,17 @@ module.exports = {
         const status = [
             {
                 activities: [{
-                    name: 'Dauntless',
-                    type: ActivityType.Competing,
+                    name: 'One Piece',
+                    type: ActivityType.Watching,
                 }],
                 status: 'dnd',
             },
             {
                 activities: [{
-                    name: 'I respond to DMs',
-                    type: ActivityType.Custom,
-                }],
-                status: 'online',
-            },
-            {
-                activities: [{
-                    name: 'me',
-                    type: ActivityType.Listening,
-                }],
-                status: 'idle',
-            },
-            {
-                activities: [{
                     name: 'Dauntless',
-                    type: ActivityType.Playing,
+                    type: ActivityType.Competing,
                 }],
-                status: 'idle',
+                status: 'dnd',
             },
             {
                 activities: [{
@@ -43,10 +29,31 @@ module.exports = {
             },
             {
                 activities: [{
-                    name: 'One Piece',
-                    type: ActivityType.Watching,
+                    name: 'Dauntless',
+                    type: ActivityType.Playing,
                 }],
-                status: 'dnd',
+                status: 'idle',
+            },
+            {
+                activities: [{
+                    name: 'me',
+                    type: ActivityType.Listening,
+                }],
+                status: 'idle',
+            },
+            {
+                activities: [{
+                    name: 'ⓘ This bot is suspected to be part of an online pirate organization. Please report any suspicious activity to Discord staff.',
+                    type: ActivityType.Custom,
+                }],
+                status: 'idle',
+            },
+            {
+                activities: [{
+                    name: 'I respond to DMs',
+                    type: ActivityType.Custom,
+                }],
+                status: 'online',
             },
         ];
         function updateStatus() {
