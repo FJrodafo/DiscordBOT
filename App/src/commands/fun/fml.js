@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const puppeteer = require('puppeteer');
 
 module.exports = {
@@ -22,17 +22,11 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor(0xFC8CB4)
             .setTitle(articleData.author)
+            .setURL(articleData.url)
             .setDescription(articleData.text)
             .setThumbnail('https://www.fmylife.com/images/header/logo-fml.png')
             .setImage('https://www.fmylife.com/images/header/baseline-fml.png');
-        const row = new ActionRowBuilder()
-            .addComponents(
-                new ButtonBuilder()
-                    .setLabel('LINK')
-                    .setStyle(ButtonStyle.Link)
-                    .setURL(articleData.url),
-            );
-        await interaction.editReply({ embeds: [embed], components: [row] });
+        await interaction.editReply({ embeds: [embed] });
         await browser.close();
     },
 };
