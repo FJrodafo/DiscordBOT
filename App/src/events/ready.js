@@ -43,7 +43,7 @@ module.exports = {
             },
             {
                 activities: [{
-                    name: 'ⓘ This bot is suspected to be part of an online pirate organization. Please report any suspicious activity to Discord staff.',
+                    name: 'ⓘ This bot is suspected to be part of an online pirate crew. Please report any suspicious activity to Discord staff.',
                     type: ActivityType.Custom,
                 }],
                 status: 'idle',
