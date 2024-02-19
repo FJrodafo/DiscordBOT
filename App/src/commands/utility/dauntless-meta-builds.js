@@ -36,41 +36,35 @@ module.exports = {
             ),
         ),
     async execute(interaction) {
-        try {
-            const weapon = interaction.options.getString('weapon');
-            const element = interaction.options.getString('element');
-            const data = require(jsonPath);
-            const buildInfo = data[weapon][element];
-            const thumbnailPath = `./../../assets/dauntless/builds/${buildInfo.Omnicell}`;
-            const imagePath = './dauntless-meta-builds.png';
-            const combinedImage = await combineImages(buildInfo.Weapon, buildInfo.Armour, buildInfo.Supplies);
-            fs.writeFileSync(imagePath, combinedImage.toBuffer());
-            const thumbnailFile = new AttachmentBuilder(thumbnailPath);
-            const imageFile = new AttachmentBuilder(imagePath);
-            let embed;
-            if (buildInfo.Best) {
-                embed = new EmbedBuilder()
-                    .setColor(0xFFFFFF)
-                    .setTitle(`${element} ${weapon} Meta Build:`)
-                    .setDescription(buildInfo.Perks.join('\n'))
-                    .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                    .setImage('attachment://dauntless-meta-builds.png')
-                    .setFooter({ text: `${buildInfo.Best}` });
-            }
-            else {
-                embed = new EmbedBuilder()
-                    .setColor(0xFFFFFF)
-                    .setTitle(`${element} ${weapon} Meta Build:`)
-                    .setDescription(buildInfo.Perks.join('\n'))
-                    .setThumbnail(`attachment://${buildInfo.Omnicell}`)
-                    .setImage('attachment://dauntless-meta-builds.png');
-            }
-            interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
+        const weapon = interaction.options.getString('weapon');
+        const element = interaction.options.getString('element');
+        const data = require(jsonPath);
+        const buildInfo = data[weapon][element];
+        const thumbnailPath = `./../../assets/dauntless/builds/${buildInfo.Omnicell}`;
+        const imagePath = './dauntless-meta-builds.png';
+        const combinedImage = await combineImages(buildInfo.Weapon, buildInfo.Armour, buildInfo.Supplies);
+        fs.writeFileSync(imagePath, combinedImage.toBuffer());
+        const thumbnailFile = new AttachmentBuilder(thumbnailPath);
+        const imageFile = new AttachmentBuilder(imagePath);
+        let embed;
+        if (buildInfo.Best) {
+            embed = new EmbedBuilder()
+                .setColor(0xFFFFFF)
+                .setTitle(`${element} ${weapon} Meta Build:`)
+                .setDescription(buildInfo.Perks.join('\n'))
+                .setThumbnail(`attachment://${buildInfo.Omnicell}`)
+                .setImage('attachment://dauntless-meta-builds.png')
+                .setFooter({ text: `${buildInfo.Best}` });
         }
-        catch (error) {
-            console.log(error);
-            interaction.reply({ content: 'Error! Try again later...', ephemeral: true });
+        else {
+            embed = new EmbedBuilder()
+                .setColor(0xFFFFFF)
+                .setTitle(`${element} ${weapon} Meta Build:`)
+                .setDescription(buildInfo.Perks.join('\n'))
+                .setThumbnail(`attachment://${buildInfo.Omnicell}`)
+                .setImage('attachment://dauntless-meta-builds.png');
         }
+        interaction.reply({ embeds: [embed], files: [thumbnailFile, imageFile] });
     },
 };
 

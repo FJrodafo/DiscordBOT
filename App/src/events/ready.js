@@ -8,13 +8,6 @@ module.exports = {
         const status = [
             {
                 activities: [{
-                    name: 'One Piece',
-                    type: ActivityType.Watching,
-                }],
-                status: 'dnd',
-            },
-            {
-                activities: [{
                     name: 'Dauntless',
                     type: ActivityType.Competing,
                 }],
@@ -22,17 +15,10 @@ module.exports = {
             },
             {
                 activities: [{
-                    name: 'Dauntless',
-                    type: ActivityType.Streaming,
-                    url: 'https://www.twitch.tv/directory/category/dauntless',
+                    name: 'I respond to DMs',
+                    type: ActivityType.Custom,
                 }],
-            },
-            {
-                activities: [{
-                    name: 'Dauntless',
-                    type: ActivityType.Playing,
-                }],
-                status: 'idle',
+                status: 'online',
             },
             {
                 activities: [{
@@ -43,17 +29,24 @@ module.exports = {
             },
             {
                 activities: [{
-                    name: 'ⓘ This bot is suspected to be part of an online pirate crew. Please report any suspicious activity to Discord staff.',
-                    type: ActivityType.Custom,
+                    name: 'Dauntless',
+                    type: ActivityType.Playing,
                 }],
                 status: 'idle',
             },
             {
                 activities: [{
-                    name: 'I respond to DMs',
-                    type: ActivityType.Custom,
+                    name: 'Dauntless',
+                    type: ActivityType.Streaming,
+                    url: 'https://www.twitch.tv/directory/category/dauntless',
                 }],
-                status: 'online',
+            },
+            {
+                activities: [{
+                    name: 'One Piece',
+                    type: ActivityType.Watching,
+                }],
+                status: 'dnd',
             },
         ];
         function updateStatus() {
