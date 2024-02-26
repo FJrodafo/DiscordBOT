@@ -1,9 +1,6 @@
 ## Commands
 
-- [x] fix ~~say~~ echo
-- [x] fix avatar
-- [x] fix server
-- [ ] fix user
+- [x] fix user
 - [ ] fix ship
 
 ## Database
