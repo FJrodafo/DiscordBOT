@@ -1,5 +1,6 @@
 App/node_modules
-App/src/assets
+App/src/assets/blackjack
+App/src/assets/dauntless/icons
 App/src/commands/private
 App/src/commands/utility/dauntless-catalyst-builds.png
 App/src/commands/utility/dauntless-escalation-builds.png
