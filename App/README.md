@@ -33,6 +33,8 @@ App/
    │   ├── events/
    │   │   ├── interactionCreate.js
    │   │   └── ready.js
+   │   ├── scripts/
+   │   │   └── ...
    │   ├── config.json
    │   ├── deploy-commands.js
    │   └── index.js

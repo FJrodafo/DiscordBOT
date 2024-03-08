@@ -8,5 +8,7 @@ App/src/commands/utility/dauntless-exotic-builds.png
 App/src/commands/utility/dauntless-gauntlet-leaderboard.png
 App/src/commands/utility/dauntless-meta-builds.png
 App/src/commands/utility/web-screenshot.png
+App/src/data/dauntless-trials-leaderboard.js
 App/src/deprecated
+App/src/scripts/dauntless-trials-leaderboard.py
 App/src/config.json
