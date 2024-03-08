@@ -23,7 +23,7 @@ module.exports = {
     },
 };
 
-// URL
+// DATA EXTRACTION
 /*
 const { SlashCommandBuilder, AttachmentBuilder, EmbedBuilder } = require('discord.js');
 const puppeteer = require('puppeteer');
