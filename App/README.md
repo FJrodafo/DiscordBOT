@@ -4,6 +4,7 @@
 2. [Project Structure](#project-structure)
 3. [Run it!](#run-it)
 4. [Docker](#docker)
+5. [Available Scripts](#available-scripts)
 
 ## Attribution
 
@@ -89,6 +90,26 @@ docker run -dp 127.0.0.1:3000:3000 discord-bot
 ```
 
 > <mark>Important!</mark> This app will use port 3000, change it if you are currently using port 3000. Otherwise it will not run.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Once configured, run the bot. It first deploy the commands, updating both on the guild server and globally (You can edit the commented lines of code in the [deploy-commands.js](./src/deploy-commands.js) file to customize the deploy of the bot commands).
+
+### `npm run eslint`
+
+Runs the eslint to find possible formatting errors in the code.
+
+### `npm run eslintfix`
+
+Automatically fixes all errors caught by eslint.
+
+### `npm test`
+
+There are currently no tests configured.
 
 <link rel="stylesheet" href="./README.css">
 <a class="back-to-top" href="#top" title="Back to top">↑</a>

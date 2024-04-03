@@ -1,0 +1,8 @@
+/node_modules
+/src/assets/blackjack
+/src/assets/dauntless/icons
+/src/commands/utility/dauntless-gauntlet-leaderboard.png
+/src/commands/utility/dauntless-meta-builds.png
+/src/commands/utility/web-screenshot.png
+/src/deprecated
+/src/config.json
