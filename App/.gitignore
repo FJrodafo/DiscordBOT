@@ -1,8 +1,15 @@
+# dependencies
 /node_modules
+
+# assets
 /src/assets/blackjack
 /src/assets/dauntless/icons
+
+# commands
 /src/commands/utility/dauntless-gauntlet-leaderboard.png
 /src/commands/utility/dauntless-meta-builds.png
 /src/commands/utility/web-screenshot.png
 /src/deprecated
+
+# misc
 /src/config.json
