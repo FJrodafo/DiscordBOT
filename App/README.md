@@ -11,38 +11,41 @@
 This project was build by following the [discord.js guide](https://github.com/discordjs/guide). I have modified small details of the code. This is just an example of what the final project would look like.
 
 ## Project Structure
+<details>
+<summary>Click me</summary>
 
 ```
 App/
-   ├── node_modules/
-   │   └── ...
-   ├── src/
-   │   ├── assets/
-   │   │   └── ...
-   │   ├── commands/
-   │   │   ├── fun/
-   │   │   │   └── ping.js
-   │   │   ├── moderation/
-   │   │   │   ├── kick.js
-   │   │   │   └── prune.js
-   │   │   └── utility/
-   │   │       ├── avatar.js
-   │   │       ├── server.js
-   │   │       └── user.js
-   │   ├── data/
-   │   │   └── ...
-   │   ├── events/
-   │   │   ├── interactionCreate.js
-   │   │   └── ready.js
-   │   ├── scripts/
-   │   │   └── ...
-   │   ├── config.json
-   │   ├── deploy-commands.js
-   │   └── index.js
-   ├── Dockerfile
-   ├── package-lock.json
-   └── package.json
+├── node_modules/
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   └── ...
+│   ├── commands/
+│   │   ├── fun/
+│   │   │   └── ping.js
+│   │   ├── moderation/
+│   │   │   ├── kick.js
+│   │   │   └── prune.js
+│   │   └── utility/
+│   │       ├── avatar.js
+│   │       ├── server.js
+│   │       └── user.js
+│   ├── data/
+│   │   └── ...
+│   ├── events/
+│   │   ├── interactionCreate.js
+│   │   └── ready.js
+│   ├── scripts/
+│   │   └── ...
+│   ├── config.json
+│   ├── deploy-commands.js
+│   └── index.js
+├── Dockerfile
+├── package-lock.json
+└── package.json
 ```
+</details>
 
 ## Run it!
 
