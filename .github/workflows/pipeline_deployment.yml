@@ -6,13 +6,22 @@ jobs:
   deployment:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
         with:
           node-version: "18"
+
       - name: Install dependencies
-        run: cd ./App && npm install
+        run: |
+          cd ./App
+          npm install
+
       - name: Lint
-        run: cd ./App && npm run eslint
+        run: |
+          cd ./App
+          npm run eslint
