@@ -3,7 +3,7 @@
 1. [Attribution](#attribution)
 2. [Project Structure](#project-structure)
 3. [Run it!](#run-it)
-4. [Docker](#docker)
+4. [Run with Docker](#run-with-docker)
 5. [Available Scripts](#available-scripts)
 
 ## Attribution
@@ -76,7 +76,7 @@ npm start
 # Press 'Ctrl + C' to exit
 ```
 
-## Docker
+## Run with Docker
 
 If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
 
