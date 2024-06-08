@@ -4,13 +4,15 @@
 2. [Project Structure](#project-structure)
 3. [Run it!](#run-it)
 4. [Run with Docker](#run-with-docker)
-5. [Available Scripts](#available-scripts)
+5. [Build Docker image on your own](#build-docker-image-on-your-own)
+6. [Available Scripts](#available-scripts)
 
 ## Attribution
 
 This project was build by following the [discord.js guide](https://github.com/discordjs/guide). I have modified small details of the code. This is just an example of what the final project would look like.
 
 ## Project Structure
+
 <details>
 <summary>Click me</summary>
 
@@ -78,6 +80,28 @@ npm start
 
 ## Run with Docker
 
+Make sure to create and configurate the `config.json` file correctly into the `src` directory before running Docker commands...
+
+Build the container:
+
+```shell
+docker compose build
+```
+
+Run the container:
+
+```shell
+docker compose up -d
+```
+
+Stop the Container:
+
+```shell
+docker compose down
+```
+
+## Build Docker image on your own
+
 If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
 
 Open a terminal and run the following command (Make sure you are in the `App` directory):
@@ -91,8 +115,6 @@ After the build completes, you can run your container with the following command
 ```shell
 docker run -dp 127.0.0.1:3000:3000 discord-bot
 ```
-
-> <mark>Important!</mark> This app will use port 3000, change it if you are currently using port 3000. Otherwise it will not run.
 
 ## Available Scripts
 
