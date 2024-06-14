@@ -1,4 +1,7 @@
 ```
+* Commit: a06a55d - v96
+| Author: FJrodafo - Sat, 8 Jun 2024 14:43:04 +0100
+| 
 * Commit: f8ce77a - v95
 | Author: FJrodafo - Wed, 8 May 2024 21:16:35 +0100
 | 
