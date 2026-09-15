@@ -17,6 +17,11 @@ module.exports = (client) => {
                     },
                     createdAt: client.user.createdAt,
                     createdTimestamp: formatAge(client.user.createdTimestamp),
+                    verified: client.application?.verified ?? 'N/A',
+                    botPublic: client.application?.botPublic ?? 'N/A',
+                    botRequireCodeGrant: client.application?.botRequireCodeGrant ?? 'N/A',
+                    approximateGuildCount: client.application?.approximateGuildCount ?? 'N/A',
+                    approximateUserInstallCount: client.application?.approximateUserInstallCount ?? 'N/A',
                 },
                 status: {
                     online: client.isReady(),
@@ -36,6 +41,7 @@ module.exports = (client) => {
                 },
                 guilds: {
                     total: client.guilds.cache.size,
+                    shardCount: client.options.shardCount ?? 'N/A',
                     guildUsers: client.guilds.cache.reduce((acc, g) => acc + g.memberCount, 0),
                     averageMembers: Math.round(client.guilds.cache.reduce((acc, g) => acc + g.memberCount, 0) / client.guilds.cache.size),
                     largestGuild: client.guilds.cache.sort((a, b) => b.memberCount - a.memberCount).first()?.name ?? 'N/A',
@@ -51,6 +57,7 @@ module.exports = (client) => {
                 cache: {
                     cachedUsers: client.users.cache.size,
                     cachedChannels: client.channels.cache.size,
+                    cachedMessages: client.channels.cache.reduce((acc, c) => acc + (c.messages?.cache.size ?? 0), 0),
                     cachedRoles: client.guilds.cache.reduce((acc, g) => acc + g.roles.cache.size, 0),
                     cachedEmojis: client.guilds.cache.reduce((acc, g) => acc + g.emojis.cache.size, 0),
                 },
@@ -62,6 +69,7 @@ module.exports = (client) => {
                     version: process.version,
                     platform: process.platform,
                     arch: process.arch,
+                    nodeEnv: process.env.NODE_ENV,
                 },
             });
         }
